@@ -191,11 +191,6 @@ form .search button:hover {
   border-top: 1px solid #ddd;
 }
 
-.search-history h4 button:hover {
-  background: #f00;
-  color: #fff;
-}
-
 .search-history h4 {
   font-size: 24px;
   font-weight: 700;
@@ -213,14 +208,23 @@ form .search button:hover {
   background: #ddd;
   color: #222;
   cursor: pointer;
+  transition: 0.3s;
+}
+
+.search-history h4 button:hover {
+  background: #f00;
+  color: #fff;
+  transition: 0.3s;
 }
 
 .search-history ul li {
   cursor: pointer;
   padding: 6px 0;
+  transition: 0.3s;
 }
 
 .search-history ul li:hover {
   background: #f00;
   color: #fff;
+  transition: 0.3s;
 }
